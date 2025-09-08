@@ -14,6 +14,7 @@ ansible-policy/
 
 .ansible/
 .vscode/
+.cache_ggshield
 
 # Folders from demo of ARA (2025-03-11-demo-logging-ansible-content)
 ara/
