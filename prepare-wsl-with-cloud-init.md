@@ -29,22 +29,17 @@ write_files:
       generateResolvConf = false
       hostname = wsl-ubuntu
       generateHosts = false
-  - path: ~/.inputrc
+  - path: /etc/inputrc
     content: |
       set bell-style visible
-  - path: ~/.vimrc
-    content: |
-      set belloff=all
-  - path: /etc/resolv.conf
-    content: |
-      nameserver 1.1.1.1
   
-packages: [ginac-tools, octave, python3-pip, python3-venv, podman, dbus-user-session]
+packages: [ginac-tools, octave, python3-pip, pipx, python3-venv, podman, dbus-user-session]
 
 runcmd:
    - sudo git clone https://github.com/Microsoft/vcpkg.git /opt/vcpkg
    - sudo apt-get install zip curl -y
    - /opt/vcpkg/bootstrap-vcpkg.sh
+   - git clone https://github.com/computacenter-com/ansible-community-call-exercises /home/timgrt/ansible-community-call-exercises
 ```
 
 > 🚧 **Update cloud-init configuration** 🚧  
