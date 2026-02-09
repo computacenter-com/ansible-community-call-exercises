@@ -11,7 +11,8 @@
             "extensions": [
                 "redhat.ansible",
                 "redhat.vscode-yaml",
-                "vscode-icons-team.vscode-icons"
+                "vscode-icons-team.vscode-icons",
+                "yzhang.markdown-all-in-one"
             ],
             "settings": {
                 "workbench.colorTheme": "Default Dark+",
