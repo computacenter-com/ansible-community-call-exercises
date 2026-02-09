@@ -1,13 +1,13 @@
 # Community Call - Exercises
 
-[![Ansible Lint](https://github.com/TimGrt/community-call-exercises/actions/workflows/ci.yml/badge.svg)](https://github.com/TimGrt/community-call-exercises/actions/workflows/ci.yml)
+[![Ansible Lint](https://github.com/computacenter-com/ansible-community-call-exercises/actions/workflows/ci.yml/badge.svg)](https://github.com/computacenter-com/ansible-community-call-exercises/actions/workflows/ci.yml)
 
 This repository contains different exercises for the Ansible Community Call *Dojo* Sessions.
 
 Clone this repository via HTTPS:
 
 ```bash
-git clone https://github.com/TimGrt/community-call-exercises.git
+git clone https://github.com/computacenter-com/ansible-community-call-exercises.git
 ```
 
 To do the different exercises, observe the `README.md` files in the respective exercise folders:

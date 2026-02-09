@@ -2,15 +2,25 @@
 
 To have a test environment for doing all exercises during the Community Call you can use *Windows Subsystem for Linx (WSL)*.
 
-This guide shows you the basic steps to configure the *Ubuntu 22.04.02 LTS* WSL environment.
+This guide shows you the basic steps to configure the *Ubuntu 24.04.1 LTS* WSL environment.
 
-<img src=".assets/microsoft-store-wsl-ubuntu2204.png" width=60%>
+> [!TIP]
+> Disable the VPN when running WSL!
+
+## Installation
+
+Open a terminal (Powershell), does **not** need be run as administrator.  
+Run the following command:
+
+```console
+wsl --install Ubuntu-24.04
+```
+
+During the installation process you need to provide a username and password.
 
 ## Configuration
 
 Execute the following steps.
-
-> Disable the VPN when running WSL!
 
 ### Name resolution
 
