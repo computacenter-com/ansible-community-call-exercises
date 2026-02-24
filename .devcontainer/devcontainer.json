@@ -4,7 +4,8 @@
     "features": {
         "ghcr.io/devcontainers/features/python:1": {
             "toolsToInstall": "pipenv,virtualenv,ansible-core,ansible-lint"
-        }
+        },
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
     },
     "customizations": {
         "vscode": {
