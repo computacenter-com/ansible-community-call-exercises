@@ -20,5 +20,6 @@
                 "workbench.iconTheme": "vscode-icons"
             }
         }
-    }
+    },
+    "postCreateCommand": "chmod -R o-w /workspaces/*"
 }
