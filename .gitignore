@@ -26,3 +26,6 @@ logs/
 context/
 community-call-ve/
 *.log
+
+# Folders from exercise 2026-03-10-exercise-automating-with-netbox
+ve-ansible-netbox/
