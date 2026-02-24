@@ -10,7 +10,7 @@ Open the *Editor* App (or Notepad++ or any other editor) and paste in the follow
 
 > [!TIP]
 > **Update the following cloud-init configuration!**  
-> Adjust the **username**, after copying the content to a textfile, use search and replace!    
+> Adjust the **username**, after copying the content to a textfile, use search and replace!  
 > Adjust the instance name, if necessary.
 
 ```yaml
@@ -37,7 +37,7 @@ write_files:
   - path: /etc/inputrc
     content: |
       set bell-style visible
-  
+
 packages: [ginac-tools, octave, python3-pip, pipx, python3-venv, podman, dbus-user-session]
 
 runcmd:
@@ -47,7 +47,7 @@ runcmd:
    - git clone https://github.com/computacenter-com/ansible-community-call-exercises /home/timgrt/ansible-community-call-exercises
 ```
 
-Save the file as `Ubuntu-24.04.user-data` in a new folder `.cloud-init` in your Windows Home directory (e.g. `C:\Users\tgruetz\.cloud-init\Ubuntu-24.04.user-data`). 
+Save the file as `Ubuntu-24.04.user-data` in a new folder `.cloud-init` in your Windows Home directory (e.g. `C:\Users\tgruetz\.cloud-init\Ubuntu-24.04.user-data`).
 
 > [!WARNING]
 > **Do not** save the file as a text file, change the filetype to *All files (*.*)*.
