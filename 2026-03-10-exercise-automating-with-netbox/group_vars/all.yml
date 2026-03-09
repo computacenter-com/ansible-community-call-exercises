@@ -1,0 +1,3 @@
+---
+# as the virtual machines in Netbox don't really exist, we are faking the connection
+ansible_connection: local

@@ -15,13 +15,14 @@ repos:
       - id: requirements-txt-fixer
         name: Sort entries in requirements.txt
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.33.3
+    rev: 0.36.2
     hooks:
       - id: check-github-workflows
   - repo: https://github.com/ansible-community/ansible-lint
-    rev: v25.8.2
+    rev: v26.1.1
     hooks:
       - id: ansible-lint
+        language_version: python3
         additional_dependencies:
           - jmespath
           - netaddr
@@ -29,7 +30,7 @@ repos:
   # See https://docs.gitguardian.com/ggshield-docs/integrations/git-hooks/pre-commit#global-pre-commit-hook
   # Skip this with: SKIP=ggshield git commit -m "commit message"
   - repo: https://github.com/gitguardian/ggshield
-    rev: v1.43.0
+    rev: v1.48.0
     hooks:
       - id: ggshield
         name: Run GitGuardian secrets scan

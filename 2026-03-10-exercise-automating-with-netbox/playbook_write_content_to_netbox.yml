@@ -1,0 +1,11 @@
+---
+
+- name: Write content to NetBox
+  hosts: localhost
+  connection: local
+  gather_facts: true
+  vars:
+    netbox_url: https://demo.netbox.dev/
+    netbox_token: "{{ lookup('env', 'NETBOX_TOKEN') }}"
+  tasks:
+    # Add your task(s) here to write content to NetBox

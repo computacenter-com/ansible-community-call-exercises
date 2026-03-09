@@ -12,6 +12,7 @@ git clone https://github.com/computacenter-com/ansible-community-call-exercises.
 
 To do the different exercises, observe the `README.md` files in the respective exercise folders:
 
+* [10.03.2026 - Automating with Netbox](2026-03-10-exercise-automating-with-netbox/README.md)
 * [08.04.2025 - Ansible Navigator](2025-04-08-exercise-ansible-navigator/README.md)
 * [12.12.2023 - AAP Usage 102](2023-12-12-exercise-aap-usage-102/README.md)
 * [11.04.2023 - Custom facts and plugins](2023-04-11-exercise-facts-and-filter-plugin/README.md)

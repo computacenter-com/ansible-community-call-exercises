@@ -1,0 +1,11 @@
+---
+# Adjust the 'hosts' value to match the name of the group of VMs that you retrieved from NetBox.
+- name: Run automation against all virtual machines in the Frankfurt cluster
+  hosts: the-group-of-virtual-machines-in-frankfurt-retrieved-from-netbox
+  gather_facts: false
+  tasks:
+    - name: Gather bare minimum facts about the host
+      ansible.builtin.setup:
+        gather_subset:
+          - '!all'
+          - '!min'
